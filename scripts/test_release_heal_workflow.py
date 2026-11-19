@@ -149,7 +149,7 @@ class ReleaseHealGate(unittest.TestCase):
         self.assertIn('if ! grep -Fq "$readme_pin" README.md', OPERATIONS)
 
     def test_readme_replacement_preserves_the_literal_at_sign(self):
-        old = "supernovae-st/nika-action@" + "1" * 40 + " # v1.0.18\n"
+        old = "nika-open/nika-action@" + "1" * 40 + " # v1.0.18\n"
         expected = "nika-action@" + "a" * 40 + " # v1.0.19"
         env = os.environ | {"README_PIN": expected}
         with tempfile.TemporaryDirectory() as directory:
@@ -168,7 +168,7 @@ class ReleaseHealGate(unittest.TestCase):
             )
             self.assertEqual(
                 readme.read_text(),
-                "supernovae-st/" + expected + "\n",
+                "nika-open/" + expected + "\n",
             )
 
     def test_main_ref_guard_precedes_every_mutation(self):

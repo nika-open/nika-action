@@ -18,7 +18,7 @@ case "$(uname -s)/$(uname -m)" in
 esac
 
 ASSET="nika-${PLATFORM}-${VERSION}.tar.gz"
-BASE="https://github.com/supernovae-st/nika/releases/download/v${VERSION}"
+BASE="https://github.com/nika-open/nika/releases/download/v${VERSION}"
 DEST="${RUNNER_TEMP:-/tmp}/nika-bin"
 mkdir -p "${DEST}"
 cd "${DEST}"
