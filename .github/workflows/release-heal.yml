@@ -41,10 +41,10 @@ jobs:
             exit 1
           fi
 
-          tag="$(gh release view --repo supernovae-st/nika --json tagName --jq .tagName)"
+          tag="$(gh release view --repo nika-open/nika --json tagName --jq .tagName)"
           [[ "$tag" =~ ^v[0-9][0-9.]*$ ]] || { echo "::error::unexpected tag: $tag"; exit 1; }
           ver="${tag#v}"
-          curl -fsSL "https://github.com/supernovae-st/nika/releases/download/${tag}/SHA256SUMS" >/dev/null
+          curl -fsSL "https://github.com/nika-open/nika/releases/download/${tag}/SHA256SUMS" >/dev/null
 
           git config user.name "nika-release[bot]"
           git config user.email "nika@supernovae.studio"
