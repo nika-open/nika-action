@@ -3,7 +3,7 @@
 ## Reporting
 
 Please report vulnerabilities privately via
-[GitHub security advisories](https://github.com/supernovae-st/nika-action/security/advisories/new)
+[GitHub security advisories](https://github.com/nika-open/nika-action/security/advisories/new)
 — not in public issues. You'll get an acknowledgment within 72 hours.
 
 ## What this action does and does not do
@@ -18,7 +18,7 @@ Please report vulnerabilities privately via
   pinned GitHub release and verified against the release's `SHA256SUMS`
   before it runs (fail-closed). Pin the action itself by full SHA for the
   strongest supply-chain posture:
-  `uses: supernovae-st/nika-action@<commit-sha> # v1.x.y`. The README's
+  `uses: nika-open/nika-action@<commit-sha> # v1.x.y`. The README's
   quick start shows the current release's pin, kept up to date by the
   release workflow.
 - **Fork PRs degrade, never escalate.** The default fork token is
@@ -29,7 +29,9 @@ Please report vulnerabilities privately via
   same release as the tarball (trust-on-first-use per release). The engine
   release also publishes SLSA provenance and a GitHub artifact attestation;
   this action does not verify them. To check a tarball by hand:
-  `gh attestation verify <tarball> --repo supernovae-st/nika`.
+  `gh attestation verify <tarball> --repo nika-open/nika`. Releases up to
+  0.124.4 were attested by `supernovae-st/nika`, the engine's name before
+  it moved: verify those with `--repo supernovae-st/nika`.
 
 ## Supported versions
 
