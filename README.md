@@ -103,7 +103,7 @@ comments. A clean check passes; findings fail the job.
 > keeps the example below current.
 
 ```yaml
-      - uses: nika-open/nika-action@8c96ac90de29e58bb2a6875c60c8cba97bc943fc # v1.0.38
+      - uses: nika-open/nika-action@f396c3365322991f58309ae503884fc90514cc95 # v1.0.39
 ```
 
 <details>
