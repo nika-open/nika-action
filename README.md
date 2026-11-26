@@ -1,8 +1,12 @@
 <p align="center">
   <a href="https://nika.sh">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://nika.sh/brand/nika-logo-dark.svg">
-      <img src="https://nika.sh/brand/nika-logo-light.svg" alt="Nika" width="220">
+      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-nika-action-dark.png?v=670f94370526">
+      <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-nika-action-light.png?v=6d030781f7be">
+      <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-nika-action-dark.webp?v=9b7dde137fbc">
+      <source type="image/webp" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-nika-action-light.webp?v=6f15a690834e">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-nika-action-dark.gif?v=f3098b409b9c">
+      <img src="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-nika-action-light.gif?v=284af1f6facb" alt="Nika. On every pull request. A clear verdict before anything runs. One comment per .nika file with the verdict, a cost floor, the models and secrets it needs, and its graph. No API key." width="100%">
     </picture>
   </a>
 </p>
@@ -18,7 +22,7 @@
   <a href="https://github.com/nika-open/nika-action/releases/latest"><img src="https://img.shields.io/github/v/release/nika-open/nika-action?label=release" alt="Latest release"></a>
   <a href="https://github.com/nika-open/nika-action/actions/workflows/ci.yml"><img src="https://github.com/nika-open/nika-action/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI status"></a>
   <a href="https://github.com/nika-open/nika/releases/latest"><img src="https://img.shields.io/github/v/release/nika-open/nika?label=engine" alt="Engine release"></a>
-  <a href="https://docs.nika.sh"><img src="https://img.shields.io/badge/docs-docs.nika.sh-8b8cf8.svg" alt="Documentation"></a>
+  <a href="https://docs.nika.sh"><img src="https://img.shields.io/badge/docs-docs.nika.sh-2650ff.svg" alt="Documentation"></a>
   <br>
   <a href="https://scorecard.dev/viewer/?uri=github.com/nika-open/nika-action"><img src="https://api.scorecard.dev/projects/github.com/nika-open/nika-action/badge" alt="OpenSSF Scorecard"></a>
   <a href="https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/nika-open/nika-action"><img src="https://archive.softwareheritage.org/badge/origin/https://github.com/nika-open/nika-action/" alt="Archived by Software Heritage"></a>
@@ -503,6 +507,13 @@ the `test` mode must pass offline and `mode: run` must be refused.
 
 <!-- city:map -->
 ## 🦋 The Nika family
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/family-dark.png?v=4cfc8ec611de">
+    <img src="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/family-light.png?v=dfedffa46450" alt="The repositories of Nika. The language and its engine: nika-spec and nika. From the tools you already use: nika-plugins, nika-vscode, nika-client and gh-nika. On every pull request, and beyond: nika-action, nika-actions-starter, nika-registry, homebrew-tap, nika-estate and nika-docs." width="100%">
+  </picture>
+</p>
 
 | | Repository | What it gives you |
 |---|---|---|
